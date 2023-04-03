@@ -3,9 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 /* Do i have to store the font locally because of the privacy policy and cookie consent? */
 
+/* Just works when font is then locally installed */
 @font-face {
-    font-family: PPMonumentExtended;
-    src: url('/fonts/PPMonumentExtended-Regular.otf');
+    font-family: "PPMonumentExtended-Regular";
+    src: url("/fonts/PPMonumentExtended-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -44,7 +47,7 @@ main h1 {
 }
 
 main h2 {
-    font-family: PPMonumentExtended;
+    font-family: "PPMonumentExtended-Regular", sans-serif;
     font-size: 26px;
 }
 
