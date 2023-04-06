@@ -43,7 +43,7 @@ main h1 {
     font-size: 14px;
     color: rgb(240, 213, 198);
     background-color: black;
-    padding: 12px 32px;
+    padding: 12px 30px;
     border-radius: 30px;
     letter-spacing: 0.3px;
 }
@@ -60,9 +60,11 @@ main h2 {
 }
 
 footer {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 25px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer a {
@@ -71,8 +73,19 @@ footer a {
     text-decoration: none;
     color: black;
     letter-spacing: -0.3px;
+    align-self: center;
+}
+
+.mail {
+    justify-self: end;
 }
 
 .smileyIcon {
-    width: 18px;
+    width: 16px;
+    justify-self: center;
+    align-self: center;
+}
+
+.linkedin {
+    justify-self: start;
 }
