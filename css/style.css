@@ -45,7 +45,7 @@ main {
 }
 
 /* Katrin Kleemann */
-main h1 {
+main h1 a {
     font-weight: 500;
     font-size: 14px;
     color: rgb(240, 213, 198);
@@ -53,6 +53,7 @@ main h1 {
     padding: 12px 26px;
     border-radius: 30px;
     letter-spacing: 0.3px;
+    text-decoration: none;
 }
 
 /* Topics */
