@@ -1,4 +1,4 @@
-/* To-Do: code refactoring, SCSS?, check for OS and browser compatibility, media queries?, units flexible enough?  */
+/* To-Do: code refactoring, check for OS and browser compatibility, units flexible enough?  */
 
 
 /* ----------------------- Fonts ----------------------- */
@@ -7,7 +7,7 @@
 /* Do i have to store the font locally because of the privacy policy and cookie consent? */
 
 
-/* Just works when font is then locally installed */
+/* Just works when font is then locally installed or hosted online */
 /* @font-face {
     font-family: "PPMonumentExtended-Regular";
     src: url("/fonts/PPMonumentExtended-Regular.otf") format("opentype");
@@ -45,7 +45,7 @@ main {
 }
 
 /* Katrin Kleemann */
-main h1 a {
+main h1 {
     font-weight: 500;
     font-size: 14px;
     color: rgb(240, 213, 198);
@@ -53,7 +53,6 @@ main h1 a {
     padding: 12px 26px;
     border-radius: 30px;
     letter-spacing: 0.3px;
-    text-decoration: none;
 }
 
 /* Topics */
